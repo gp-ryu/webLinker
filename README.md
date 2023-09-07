@@ -22,12 +22,12 @@ cd webLinker/
 
 3.  Do configure before run the service. Follow the instruction.
 ```
-. webLinker config
+./webLinker config
 ```
 
 4.  Execute the `webLinker` script with desired service.
 ```
-. webLinker run rstudio -c 16 -m 128G -p 8080
+./webLinker run rstudio -c 16 -m 128G -p 8080
 ```
 
 5.  Log into service
