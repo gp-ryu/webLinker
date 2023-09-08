@@ -18,23 +18,27 @@ git clone git@github.com:gp-ryu/webLinker.git
 cd webLinker/
 ```
 
+
 2.  Activate the target conda env or set the evironment variable `CONDA_PREFIX`
     to point to the location of the conda env.
+
 
 3.  Do configure before run the service. You can just follow the instruction to do that.
 ```
 ./webLinker config
 ```
 
+
 4.  Execute the `webLinker` script with desired service.
 ```
 ./webLinker run rstudio -c 16 -m 128G -p 8080
 ```
 
+
 5.  Log into service
 
-    * open private ngrok at your prefered web browser.
-    * login with your google account you specified when doing configuration.
+* open private ngrok at your prefered web browser.
+* login with your google account you specified when doing configuration.
 
 ### Future features
 - [ ] run on HPC
