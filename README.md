@@ -35,3 +35,5 @@ cd webLinker/
     * open private ngrok at your prefered web browser.
     * login with your google account you specified when doing configuration.
 
+### Future additions
+* run on HPC
